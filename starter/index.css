@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Medium', sans-serif;
+}
+
+button, button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  border-radius: 7px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+#melodybot {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#main, #error, #starting {
+  display: none;
+  margin: auto;
+  max-width: 1300px;
+}
+
+.phase-starting #starting {
+  display: block;
+}
+
+.phase-stopped #main,
+.phase-playing #main {
+  display: block;
+}
+
+.phase-stopped #stop {
+  display: none;
+}
+
+.phase-playing #resume {
+  display: none;
+}
+
+.phase-error #error {
+  display: block;
+}
+
+#main {
+  width: 100%;
+}
+
+#notation {
+  height: 300px;
+  width: 800px;
+}
+
+#status-display {
+  font-size: 32px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px 0
+}
+
+.buttons button {
+  flex: 1 0 50%;
+}
+
+#starting {
+  text-align: center;
+}
+#main h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 20px;
+  left:0;
+  right: 0;
+}

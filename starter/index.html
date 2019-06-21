@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Melodybot</title>
+
+    <!-- The top-level script -->
+    <script type="text/javascript" src="polyfills.js"></script>
+    <script type="text/javascript" src="api-client.js"></script>
+    <script type="text/javascript" src="audio-engine.js"></script>
+    <script type="text/javascript" src="synth.js"></script>
+    <script type="text/javascript" src="piano-display.js"></script>
+    <script type="text/javascript" src="status.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='melodybot' class='phase-starting'>
+
+      <div id='starting'>
+        <h1>Welcome to Melodybot</h1>
+        <div>
+          <button id='start'>Play!</button>
+        </div>
+      </div>
+
+      <div id='main'>
+        <h1>MELODYBOT</h1>
+        <div class="buttons">
+          <button id='stop'>Stop</button>
+          <button id='resume'>Start</button>
+          <button id='refresh'>New Pattern</button>
+        </div>
+       <div id='status-display'>
+         <span id='key-name'></span>
+         <span id='generator-name'></span>
+       </div>
+        <canvas id='piano-display' />
+      </div>
+
+      <div id='error'>
+        <h1>OOPS!</h1>
+        <p>Something went wrong there.</p>
+        <p id="error-message"></p>
+        <p>Please refresh the page.</p>
+      </div>
+
+    </div>
+    <footer><a href="https://noopschallenge.com/challanges/melodybot">Learn more at noopschallenge.com</a></footer>
+
+  </body>
+</html>
