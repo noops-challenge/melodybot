@@ -2,7 +2,7 @@
 
 ## 👋 Hello from Melodybot
 
-Meet Melodybot, Drumbot's cousin. Melodybot loves two types of things: APIs and [Keytars](https://en.wikipedia.org/wiki/Keytar).
+Meet Melodybot, Drumbot's cousin. Melodybot loves two things: APIs and [Keytars](https://en.wikipedia.org/wiki/Keytar).
 
 Melodybot played lead and rhythm keytar in many bands during its heyday, but over time the keytar fell out of favor and gigs were fewer and farther between.
 
