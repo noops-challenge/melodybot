@@ -55,7 +55,7 @@ The [WebAudio page on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_
 
 Here are a few ideas for you to try:
 
-- **Change the sounds**: These sounds are pretty boring. Try experimenting with [oscillators](https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode), [filters](https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode), [panners](https://developer.mozilla.org/en-US/docs/Web/API/StereoPannerNode), and all of the other goodies in the WebAudio API. Check out (synth.js)[./starter/synth.js] for more information.
+- **Change the sounds**: These sounds are pretty boring. Try experimenting with [oscillators](https://developer.mozilla.org/en-US/docs/Web/API/OscillatorNode), [filters](https://developer.mozilla.org/en-US/docs/Web/API/BiquadFilterNode), [panners](https://developer.mozilla.org/en-US/docs/Web/API/StereoPannerNode), and all of the other goodies in the WebAudio API. Check out [synth.js](./starter/synth.js) for more information.
 
 - **Change the speed and volume!**: This synthesizer doesn't let you set the tempo or turn it up or down. Try adding a tempo control and a volume knob.
 
