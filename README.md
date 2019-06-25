@@ -43,13 +43,11 @@ See the [API Documentation](./API.md) for more information.
 
 ## Starter kit
 
-Melodybot has included a [starter kit](./starter) for you -- a synthesizer that runs in your browser.
+Melodybot has included a [starter kit](./starter) for you—a synthesizer that runs in your browser.
 
 [See it in action](https://noops-challenge.github.io/melodybot/starter)
 
-This example requires WebAudio support,
-
-The WebAudio API is relatively new and support can be slightly different in each browser. This drum machine should work on Edge, Firefox, Chrome, and Safari.  Also note that on some mobile devices, WebAudio only plays through headphones &ndash; so if you don't hear anything, plug some in!
+This example requires WebAudio support, which is relatively new and support can be slightly different in each browser. This drum machine should work on Edge, Firefox, Chrome, and Safari.  Also note that on some mobile devices, WebAudio only plays through headphones—so if you don't hear anything, plug some in!
 
 The [WebAudio page on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) is a good place to start learning about the WebAudio API.
 
